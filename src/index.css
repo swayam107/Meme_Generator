@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;700&family=Questrial&family=Raleway:wght@300;400;500&family=Rubik:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  justify-content: center;
+
+}
+
+/* ==============  Header ====================== */
+
+nav {
+  padding: 1rem;
+  background-image: linear-gradient(50deg, #d397fa, #8364e8, #8bc6ec);
+  display: flex;
+  align-items: center;
+  color: rgb(233, 243, 253);
+}
+
+#headerlogo {
+  width: 5rem;
+}
+
+nav > h3 {
+  padding: 0 1rem;
+  font-size: 30px;
+  margin-right: auto;
+}
+
+nav > p {
+  margin: 0 1rem;
+  font-size: 17px;
+}
+
+
+
+/* ==============  Meme ====================== */
+
+.meme {
+  padding: 1rem;
+  text-align: center;
+}
+
+.meme > input {
+  margin: 0 4%;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  width: 42%;
+  height: 3.7rem;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(141, 141, 141);
+  background-color: rgb(247, 247, 247);
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+.meme > button {
+  cursor: pointer;
+  margin: 2rem auto;
+  background: linear-gradient(50deg, #d397fa, #8364e8, #8bc6ec);
+  font-family: 'Inter', sans-serif;
+  font-size: medium;
+  color: aliceblue;
+  border-style: hidden;
+  border-radius: 5px;
+  
+  height: 4rem;
+  width: 92%;
+
+  transition: background 2s linear;
+}
+
+.meme > button:hover {
+  transition: opacity 0.6s ease-out;
+  opacity: 50%;
+  background: linear-gradient(155deg, #d397fa, #8364e8, #8bc6ec);
+}
+
+#top {
+  /* width: 40%;
+  height: 12px; */
 }
